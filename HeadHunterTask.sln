@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadHunterTask", "HeadHunte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadHunterTaskLibraryTests", "HeadHunterTaskLibraryTests\HeadHunterTaskLibraryTests.csproj", "{946058D6-2893-4BBA-B632-F1E11314779A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadHunterTaskLibrary", "HeadHunterTaskLibrary\HeadHunterTaskLibrary.csproj", "{73E5D099-0E88-4769-B879-AB153D448034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadHunterTaskLibrary", "HeadHunterTaskLibrary\HeadHunterTaskLibrary.csproj", "{73E5D099-0E88-4769-B879-AB153D448034}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlTask", "SqlTask", "{5D96EA4A-7D8D-4328-A38D-7FC753BEFCE3}"
+	ProjectSection(SolutionItems) = preProject
+		SqlTask\Query.sql = SqlTask\Query.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
